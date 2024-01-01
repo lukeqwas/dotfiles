@@ -1,0 +1,6 @@
+alias vim='nvim'
+alias mzh='vim ~/.zshrc'
+alias szh='source ~/.zshrc'
+alias gs='git staus'
+alias gc='git checkout'
+
