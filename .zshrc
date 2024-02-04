@@ -4,12 +4,26 @@
 export ZSH="$HOME/.oh-my-zsh"
 
 ZSH_THEME="eastwood"
-plugins=(git zsh-autosuggestions)
-source $ZSH/oh-my-zsh.sh
 
-alias vim='nvim'
-alias mzh='vim ~/.zshrc'
-alias szh='source ~/.zshrc'
+
+plugins=(git macos pip python git-prompt web-search copypath zsh-autosuggestions golang)
+ZSH_THEME="eastwood"
+#export PATH="/usr/local/opt/llvm/bin:$PATH"
+source $ZSH/oh-my-zsh.sh
 alias gs='git status'
 alias gc='git checkout'
-alias mnv='cd ~/.config/nvim && nvim .'
+alias gp='git pull -r'
+alias gtree='git log --oneline --graph --decorate --all'
+export PATH="/Users/lss/.local/share/solana/install/active_release/bin:$PATH"
+export PATH="~/scripts:$PATH"
+
+alias vim='nvim'
+alias dcu='docker-compose up'
+alias dcd='docker-compose down && docker rmi -f $(docker images -aq)'
+alias t3='tree -d -L 3'
+alias goland='open -na "GoLand.app"'
+alias mzh='vim ~/.zshrc'
+alias szh='source ~/.zshrc'
+alias mnv='cd ~/.config/nvim/ && nvim .'
+alias python='python3'
+

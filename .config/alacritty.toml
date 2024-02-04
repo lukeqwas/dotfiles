@@ -53,19 +53,19 @@ save_to_clipboard = true
   white = "#aeb3bb"
 
 [font]
-size = 10.5
+size = 16 
 
 [font.bold]
-family = "monospace"
+family = "hack"
 style = "Bold"
 
 [font.bold_italic]
-family = "monospace"
+family = "hack"
 style = "Bold Italic"
 
 [font.italic]
-family = "monospace"
+family = "hack"
 style = "Italic"
 
 [font.normal]
-family = "monospace"
+family = "hack"
