@@ -61,11 +61,11 @@ style = "Bold"
 
 [font.bold_italic]
 family = "hack"
-style = "Bold Italic"
+style = "Bold"
 
 [font.italic]
 family = "hack"
-style = "Italic"
+style = "Bold"
 
 [font.normal]
 family = "hack"

@@ -6,8 +6,11 @@ export ZSH="$HOME/.oh-my-zsh"
 ZSH_THEME="eastwood"
 
 
-plugins=(git macos pip python git-prompt web-search copypath zsh-autosuggestions golang)
+plugins=(git macos pip python git-prompt web-search copypath zsh-autosuggestions golang fzf)
 ZSH_THEME="eastwood"
+
+# eval "$(fzf --zsh)"
+
 #export PATH="/usr/local/opt/llvm/bin:$PATH"
 source $ZSH/oh-my-zsh.sh
 alias gs='git status'
