@@ -11,6 +11,14 @@
 2. `cd dotfiles`
 3. `stow .`
 
+### NeoVim Setup
+```
+sudo add-apt-repository ppa:neovim-ppa/unstable
+
+sudo apt-get update
+
+sudo apt-get install neovim
+```
 
 ### Additional Neovim Setup
 1. `cd nvim/lua/lukeqwas`

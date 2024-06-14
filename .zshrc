@@ -6,7 +6,7 @@ export ZSH="$HOME/.oh-my-zsh"
 ZSH_THEME="eastwood"
 
 
-plugins=(git macos pip python git-prompt web-search copypath zsh-autosuggestions golang fzf)
+plugins=(git macos pip python git-prompt web-search copypath zsh-autosuggestions golang)
 ZSH_THEME="eastwood"
 
 # eval "$(fzf --zsh)"
