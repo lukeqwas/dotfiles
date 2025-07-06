@@ -6,7 +6,7 @@ export ZSH="$HOME/.oh-my-zsh"
 ZSH_THEME="eastwood"
 
 
-plugins=(git macos pip python git-prompt web-search copypath zsh-autosuggestions golang)
+plugins=(git macos pip python git-prompt copypath zsh-autosuggestions golang)
 ZSH_THEME="eastwood"
 
 # eval "$(fzf --zsh)"
@@ -30,3 +30,14 @@ alias szh='source ~/.zshrc'
 alias mnv='cd ~/.config/nvim/ && nvim .'
 alias python='python3'
 
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+code () { VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args $* ;}
+
+alias mclaude='cd ~/workspace/tools/Claude-Code-Usage-Monitor && python ccusage_monitor.py'
+
+export PATH="/Users/lukestoltenberg/.local/share/solana/install/active_release/bin:$PATH"
+alias mghost='vim "/Users/lukestoltenberg/Library/Application Support/com.mitchellh.ghostty/config"'
