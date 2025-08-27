@@ -1,0 +1,4 @@
+.config/solana/
+.config/qbittorrent/
+.config/git/
+.DS_Store
