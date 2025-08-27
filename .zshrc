@@ -7,7 +7,6 @@ ZSH_THEME="eastwood"
 
 
 plugins=(git macos pip python git-prompt copypath zsh-autosuggestions golang)
-ZSH_THEME="eastwood"
 
 # eval "$(fzf --zsh)"
 
